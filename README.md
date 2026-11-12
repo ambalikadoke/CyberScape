@@ -1,24 +1,38 @@
 # CyberScape
 
-Cyber Awareness & Online Fraud Prevention website (React, frontend-only).
+Cyber Awareness & Online Fraud Prevention website built using React.
 
-## Run locally
-1. Install Node.js 18+ and Yarn (`npm install -g yarn`)
-2. Open this folder in VS Code
-3. In the terminal:
-   ```
-   yarn install
-   yarn start
-   ```
-4. Open http://localhost:3000
+## Run Locally
 
-## Build for hosting
+1. Install Node.js.
+2. Open this project folder in VS Code.
+3. Open the terminal and run:
+
+```bash
+npm install --legacy-peer-deps
+npm start
 ```
-yarn build
-```
-Upload the `build` folder to any static host (GitHub Pages, Netlify, Vercel).
 
-## Main folders
-- `src/pages` – Home, Digital World, Safety Hub, CYRA
-- `src/components` – UI pieces
-- `src/data` – all text content and the CYRA chatbot engine (`cyraEngine.js`)
+4. Open http://localhost:3000 in your browser.
+
+## Features
+
+- Cyber Awareness Information
+- Digital World
+- Safety Hub
+- CYRA Assistant
+- Online Fraud Prevention Resources
+
+## Technology Used
+
+- React
+- JavaScript
+- CSS
+- CRACO
+
+## Main Folders
+
+- `src/pages` – Home, Digital World, Safety Hub and CYRA pages
+- `src/components` – Reusable UI components
+- `src/data` – Website content and CYRA chatbot data
+- `public` – Static files and assets
